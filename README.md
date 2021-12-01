@@ -33,6 +33,14 @@ If there are any issues or questions, feel free to open an issue here on GitHub 
 
 First, you should add the __kuvera_ios_widget.js__ Script to Scriptable. Either copy the content of the __kuvera_ios_widget.js__ file and paste it into a new script in Scriptables or download the file and add it to your iCloud Drive Scriptables folder in iCloud Drive (Files App)
 
+Edit the JS and add your kuvera user email and password on line 7 and 10:
+
+```
+    const kuveraEmail = "<email>"
+
+    const kuveraPassword = "<password>"
+```
+
 1. Enter "Wiggle Mode" on your homescreen and tap on the __+__ symbol
 2. Search for and/or tap on Scriptable
 3. Choose one of three sizes and tap __+ Add Widget__
@@ -40,3 +48,7 @@ First, you should add the __kuvera_ios_widget.js__ Script to Scriptable. Either 
 5. Click on __Choose__ next to __Script__
 6. Choose __kuvera_ios_widget__ from the list
 7. Tap anywhere outside of the config window and you're done! The widget should now load.
+
+
+You can have also have a transparant backround by using https://github.com/supermamon/scriptable-no-background and setting `const useTransparency = false` on line 17.
+
