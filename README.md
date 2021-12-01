@@ -2,7 +2,9 @@
 
 An iOS widget built using the Scriptable API for <https://kuvera.in/> Mutual Fund and other statistics
 
-![widgets](https://github.com/SapneshNaik/kuvera-ios-widget-scriptable/blob/main/demo_image.png)
+<p align="center">
+<img src="https://github.com/SapneshNaik/kuvera-ios-widget-scriptable/blob/main/demo_image.png" width=382/>
+</p>
 
 # List of contents
 
